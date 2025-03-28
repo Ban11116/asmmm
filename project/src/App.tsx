@@ -9,6 +9,8 @@ import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Login from './pages/Login';
 import { AuthProvider, useAuth } from './context/AuthContext';
+import AdminLogin from './pages/admin/AdminLogin';
+import AdminProducts from './pages/admin/Products';
 
 const AdminRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user } = useAuth();
@@ -34,7 +36,16 @@ function App() {
               <Route path="/checkout" element={<Checkout />} />
               <Route path="/login" element={<Login />} />
               
-              
+              {/* Admin Routes */}
+              <Route path="/admin/login" element={<AdminLogin />} />
+              <Route 
+                path="/admin/products" 
+                element={
+                  <AdminRoute>
+                    <AdminProducts />
+                  </AdminRoute>
+                } 
+              />
             </Routes>
           </Layout>
         </BrowserRouter>

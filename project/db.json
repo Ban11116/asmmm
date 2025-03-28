@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "email": "phuongdmph51181@gmail.com",
+      "password": "123456",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro",
+      "price": 999,
+      "description": "Chiếc iPhone mới nhất với các tính năng tiên tiến",
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569"
+    },
+    {
+      "id": 2,
+      "name": "MacBook Pro",
+      "price": 12992,
+      "description": "Laptop mạnh mẽ dành cho chuyên gia",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    },
+    {
+      "id": 4,
+      "name": "iPad Pro",
+      "price": 1099,
+      "description": "Máy tính bảng mạnh mẽ với màn hình Retina",
+      "image": "https://images.unsplash.com/photo-1585060542691-6fdacb27c2d2"
+    },
+    {
+      "id": 5,
+      "name": "Apple Watch Series 9",
+      "price": 399,
+      "description": "Đồng hồ thông minh với nhiều tính năng hiện đại",
+      "image": "https://images.unsplash.com/photo-1594390921754-a6d268a320bf"
+    },
+    {
+      "id": 6,
+      "name": "Apple TV 4K",
+      "price": 179,
+      "description": "Thiết bị giải trí chất lượng cao cho gia đình",
+      "image": "https://images.unsplash.com/photo-1593642632831-1d3b5371e5db"
+    },
+    {
+      "id": 7,
+      "name": "Magic Keyboard",
+      "price": 299,
+      "description": "Bàn phím không dây tiện lợi cho MacBook và iPad",
+      "image": "https://images.unsplash.com/photo-1501555088652-021faa106b9b"
+    },
+    {
+      "id": 8,
+      "name": "HomePod Mini",
+      "price": 99,
+      "description": "Loa thông minh với âm thanh sống động",
+      "image": "https://images.unsplash.com/photo-1600172454522-3a4570943b62"
+    },
+    {
+      "id": 9,
+      "name": "Apple Pencil (2nd Gen)",
+      "price": 129,
+      "description": "Bút cảm ứng chính xác cho iPad",
+      "image": "https://images.unsplash.com/photo-1556909211-36987daf7b14"
+    },
+    {
+      "id": 10,
+      "name": "Mac Studio",
+      "price": 1999,
+      "description": "Máy tính để bàn hiệu năng cao cho công việc sáng tạo",
+      "image": "https://images.unsplash.com/photo-1636270819369-4379e09cbfd6"
+    }
+  ],
+  "cart": [
+    {
+      "productId": 4,
+      "userId": 2,
+      "quantity": 1,
+      "id": 1
+    }
+  ]
+}
